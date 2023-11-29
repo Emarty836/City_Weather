@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css" />
+        <title>Weather Website</title>
+    
+    </head>
+    <body>
+        <h1>Weather By City Search</h1>
+        <div class="main">
+        <form>
+            <input type='text' class='inputCity' placeholder="Enter City, State(optional in full text)">
+            <input type="submit" class="subButton" value="Submit">
+        </form>
+        <div class="second">
+            <p>City: <span class="city"></span></p>
+            <p>Current Termerature: <span class="currentT"></span></p>
+            <p>Lowest Termerature: <span class="lowT"></span></p>
+            <p>Highest Temperature: <span class="highT"></span></p>
+            <p>Humidity: <span class="humidity"></span></p>
+        </div><br>
+        </div>
+    <p id="print">API weather data is from API Ninjas</p>
+        <script src="script.js"></script>
+    </body>
+
+</html>
